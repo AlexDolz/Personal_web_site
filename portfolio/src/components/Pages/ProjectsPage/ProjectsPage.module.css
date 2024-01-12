@@ -1,0 +1,38 @@
+.projects__page {
+  animation: fade-in 2.5s ease forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-height: 990px) {
+  .projects__page {
+    padding-top: 80px;
+  }
+}
+@media (min-height: 1200px) {
+  .projects__page {
+    padding-top: 120px;
+  }
+}
+@media (min-height: 1350px) {
+  .projects__page {
+    padding-top: 200px;
+  }
+}
+@media (min-height: 1665px) {
+  .projects__page {
+    padding-top: 300px;
+  }
+}
+@media (min-height: 2200px) {
+  .projects__page {
+    padding-top: 460px;
+  }
+}

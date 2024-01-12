@@ -1,0 +1,15 @@
+.contact__page {
+  animation: fade-in 2.5s ease forwards;
+  display: flex;
+  justify-content: center;
+  height: 58vh;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

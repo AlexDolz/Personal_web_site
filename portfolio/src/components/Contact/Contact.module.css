@@ -1,0 +1,376 @@
+.contact__main__wrapper {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border: 2px solid #3f6987;
+  padding: 18px 36px;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: #3f6987 0px 30px 60px -12px inset, white 0px 18px 36px -18px inset;
+}
+
+.contact__img__wrapper {
+  width: 200px;
+  height: 249px;
+  position: fixed;
+  bottom: -40px;
+  left: -24px;
+}
+
+.contact__img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+}
+
+.contact__img {
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slideIn 0.8s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.contact__img2__wrapper {
+  height: 15%;
+  margin-bottom: 22px;
+}
+
+.contact__img2 {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+}
+
+.contact__icon__text__wrapper {
+  display: flex;
+  align-items: center;
+}
+.email {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.contact__text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.contact__icon {
+  font-size: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.15s ease-in-out;
+}
+.contact__icon:hover {
+  transform: scale(1.1);
+}
+
+.contact__button {
+  border: none;
+  background: local;
+  width: 40px;
+  height: 40px;
+  margin-right: 4px;
+}
+.contact__icon__wrapper {
+  margin-left: 10px;
+}
+
+.contact__icon__whatsapp {
+  fill: #009a11;
+}
+
+.contact__icon__viber {
+  fill: #7459dd;
+}
+.contact__icon__telegram {
+  fill: #28a9eb;
+}
+
+.contact__icon__linkedin {
+  fill: #007ab9;
+}
+
+.social__link {
+  display: contents;
+}
+
+.contact__img3__wrapper {
+  width: 370px;
+  height: 136px;
+  position: absolute;
+  top: 200px;
+  right: 10px;
+}
+
+.contact__img3 {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+}
+@media (min-width: 1613px) {
+  .contact__main__wrapper {
+    padding-top: 80px;
+  }
+}
+@media (min-width: 1875px) {
+  .contact__main__wrapper {
+    padding-top: 140px;
+  }
+}
+@media (min-width: 2210px) {
+  .contact__wrapper {
+    padding: 40px 60px;
+  }
+  .contact__icon {
+    font-size: 55px;
+  }
+  .contact__text {
+    font-size: 26px;
+  }
+  .contact__button {
+    width: 55px;
+    height: 55px;
+  }
+  .contact__img3__wrapper {
+    width: 470px;
+    height: 180px;
+  }
+  .contact__img__wrapper {
+    width: 300px;
+    height: 335px;
+  }
+}
+@media (min-width: 2635px) {
+  .contact__wrapper {
+    padding: 60px 80px;
+    gap: 20px;
+  }
+  .contact__icon {
+    font-size: 60px;
+  }
+  .contact__text {
+    font-size: 35px;
+  }
+  .contact__button {
+    width: 65px;
+    height: 60px;
+  }
+}
+@media (min-width: 3105px) {
+  .contact__wrapper {
+    padding: 80px 100px;
+    gap: 25px;
+  }
+  .contact__icon {
+    font-size: 65px;
+  }
+  .contact__text {
+    font-size: 40px;
+  }
+  .contact__button {
+    width: 70px;
+    height: 65px;
+  }
+  .contact__main__wrapper {
+    padding-top: 260px;
+  }
+  .contact__img3__wrapper {
+    width: 570px;
+    height: 245px;
+  }
+  .contact__img__wrapper {
+    width: 400px;
+    height: 420px;
+  }
+}
+@media (min-width: 3680px) {
+  .contact__wrapper {
+    padding: 100px 120px;
+    gap: 30px;
+  }
+  .contact__icon {
+    font-size: 80px;
+  }
+  .contact__text {
+    font-size: 45px;
+  }
+  .contact__button {
+    width: 80px;
+    height: 75px;
+  }
+  .contact__main__wrapper {
+    padding-top: 320px;
+  }
+  .contact__img2__wrapper {
+    height: 17%;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1117px) {
+  .contact__img3__wrapper {
+    width: 300px;
+    height: 125px;
+  }
+}
+
+@media (max-width: 980px) {
+  .contact__img2__wrapper {
+    height: 15%;
+  }
+  .contact__wrapper {
+    padding: 15px 35px;
+  }
+}
+@media (max-width: 950px) {
+  .contact__img3__wrapper {
+    width: 230px;
+    height: 125px;
+  }
+}
+@media (max-width: 904px) {
+  .contact__img__wrapper {
+    width: 155px;
+    height: 230px;
+  }
+}
+@media (max-width: 790px) {
+  .contact__img3__wrapper {
+    width: 200px;
+    height: 100px;
+  }
+}
+@media (max-width: 770px) {
+  .contact__img3__wrapper {
+    top: 235px;
+    right: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .contact__img3__wrapper {
+    top: 210px;
+  }
+  .contact__main__wrapper {
+    gap: 30px;
+  }
+}
+@media (max-width: 742px) {
+  .contact__main__wrapper {
+    gap: 40px;
+  }
+  .contact__wrapper {
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 734px) {
+  .contact__main__wrapper {
+    gap: 40px;
+  }
+  .contact__wrapper {
+    padding: 5px 15px;
+  }
+  .contact__img__wrapper {
+    width: 120px;
+    height: 195px;
+  }
+}
+@media (max-width: 652px) {
+  .contact__main__wrapper {
+    padding-top: 40px;
+    gap: 20px;
+  }
+}
+@media (max-width: 578px) {
+  .contact__img3__wrapper {
+    width: 150px;
+    height: 55px;
+  }
+}
+@media (max-width: 578px) {
+  .contact__img3__wrapper {
+    width: 150px;
+    height: 55px;
+  }
+}
+@media (max-width: 525px) {
+  .contact__wrapper {
+    gap: 2px;
+  }
+  .email,
+  .contact__text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 488px) {
+  .contact__wrapper {
+    gap: 0px;
+  }
+  .contact__img3__wrapper {
+    top: 260px;
+  }
+  .email,
+  .contact__text {
+    font-size: 13px;
+  }
+  .contact__icon {
+    font-size: 35px;
+    margin-right: 0px;
+  }
+  .contact__button {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 457px) {
+  .contact__img3__wrapper {
+    width: 120px;
+    height: 58px;
+  }
+}
+@media (max-width: 407px) {
+  .contact__main__wrapper {
+    padding-top: 65px;
+  }
+}
+@media (max-width: 354px) {
+  .contact__main__wrapper {
+    padding-top: 70px;
+  }
+  .email,
+  .contact__text {
+    font-size: 12px;
+  }
+  .contact__icon {
+    font-size: 30px;
+  }
+  .contact__button {
+    width: 34px;
+  }
+}

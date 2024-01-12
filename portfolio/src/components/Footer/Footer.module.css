@@ -1,0 +1,133 @@
+.footer__wrapper__homepage {
+  width: 600px;
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 600px;
+}
+
+.footer__r {
+  font-size: 15px;
+}
+
+.footer__text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10.5px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: #029891;
+  user-select: none;
+}
+
+@media (max-height: 684px) {
+  .footer__wrapper {
+    padding-top: 50px;
+  }
+  .footer__wrapper__homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    transform: none;
+    width: 100%;
+  }
+}
+@media (max-height: 427px) {
+  .footer__wrapper {
+    padding-top: 100px;
+  }
+  .footer__wrapper__homepage {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 2210px) {
+  .footer__text {
+    font-size: 20px;
+  }
+  .footer__r {
+    font-size: 24px;
+  }
+}
+@media (min-width: 3524px) {
+  .footer__text {
+    font-size: 32px;
+  }
+  .footer__r {
+    font-size: 36px;
+  }
+}
+@media (min-width: 4050px) {
+  .footer__text {
+    font-size: 50px;
+  }
+  .footer__r {
+    font-size: 54px;
+  }
+  .footer__wrapper__homepage {
+    width: 2000px;
+  }
+}
+
+@media (max-width: 870px) {
+  .footer__text {
+    font-size: 10px;
+  }
+  .footer__r {
+    font-size: 14px;
+  }
+}
+@media (max-width: 766px) {
+  .footer__text {
+    font-size: 9px;
+  }
+  .footer__r {
+    font-size: 13px;
+  }
+}
+@media (max-width: 690px) {
+  .footer__text {
+    font-size: 7px;
+  }
+  .footer__r {
+    font-size: 11px;
+  }
+  .footer__wrapper__homepage {
+    width: auto;
+  }
+}
+@media (max-width: 616px) {
+  .footer__text {
+    font-size: 6px;
+  }
+  .footer__r {
+    font-size: 10px;
+  }
+}
+@media (max-width: 597px) {
+  .footer__wrapper {
+    min-width: auto;
+  }
+  .footer__text {
+    width: 300px;
+  }
+}
+@media (max-width: 454px) {
+  .footer__text {
+    width: 235px;
+  }
+}
+@media (max-width: 428px) {
+  .footer__text {
+    letter-spacing: 3px;
+    width: 215px;
+  }
+}

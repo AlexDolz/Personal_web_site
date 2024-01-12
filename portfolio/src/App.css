@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+a:focus,
+a:visited,
+a:active {
+  outline: none;
+}
+
+:root {
+  --light-theme: repeating-linear-gradient(
+      112.5deg,
+      hsla(19, 0%, 93%, 0.2) 0px,
+      hsla(19, 0%, 93%, 0.2) 0px,
+      transparent 0px,
+      transparent 1px,
+      hsla(19, 0%, 93%, 0.2) 1px,
+      hsla(19, 0%, 93%, 0.2) 4px,
+      transparent 4px,
+      transparent 5px,
+      hsla(19, 0%, 93%, 0.2) 5px,
+      hsla(19, 0%, 93%, 0.2) 8px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(19, 0%, 93%, 0.2) 0px,
+      hsla(19, 0%, 93%, 0.2) 0px,
+      transparent 0px,
+      transparent 1px,
+      hsla(19, 0%, 93%, 0.2) 1px,
+      hsla(19, 0%, 93%, 0.2) 4px,
+      transparent 4px,
+      transparent 5px,
+      hsla(19, 0%, 93%, 0.2) 5px,
+      hsla(19, 0%, 93%, 0.2) 8px
+    ),
+    linear-gradient(135deg, rgb(238, 238, 238), rgb(121, 121, 121));
+
+  --dark-theme: repeating-linear-gradient(
+      45deg,
+      rgba(97, 97, 97, 0.1) 0px,
+      rgba(97, 97, 97, 0.1) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(90deg, rgb(43, 43, 43), rgb(43, 43, 43));
+
+  --dark-color: #3f6987;
+  --light-color: #76b2e4;
+  --secondary-light-color: #cddac2;
+  --light-theme-shadows: rgba(63, 105, 135, 0.6);
+  --dark-theme-shadows: rgba(120, 179, 227, 0.6);
+}
+
+#root {
+  height: 100%;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body,
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1410px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (pointer: coarse) {
+  body {
+    overflow-y: auto;
+  }
+}
+@media (max-height: 684px) {
+  body {
+    overflow-y: auto;
+  }
+}
+
+@media (min-width: 1820px) {
+  .container {
+    max-width: 1610px;
+  }
+}
+@media (min-width: 2210px) {
+  .container {
+    max-width: 1910px;
+  }
+}
+@media (min-width: 2635px) {
+  .container {
+    max-width: 2200px;
+  }
+}
+@media (min-width: 3072px) {
+  .container {
+    max-width: 2800px;
+  }
+}
+@media (min-width: 3680px) {
+  .container {
+    max-width: 3200px;
+  }
+}
+@media (min-width: 4600px) {
+  .container {
+    max-width: 3600px;
+  }
+}
