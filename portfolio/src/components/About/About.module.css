@@ -651,14 +651,17 @@
   }
 }
 
+@media (max-width: 414px) {
+  .about__wrapper {
+    padding-top: 50px;
+  }
+}
 @media (max-width: 386px) {
   .about__text__wrapper {
     max-width: 231px;
     margin-left: 25px;
   }
-  .about__wrapper {
-    padding-top: 18px;
-  }
+
   .about__img__wrapper2 {
     width: 129px;
     height: 44px;
