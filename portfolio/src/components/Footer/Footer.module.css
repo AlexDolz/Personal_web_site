@@ -122,16 +122,17 @@
 }
 @media (max-width: 454px) {
   .footer__text {
-    width: 235px;
+    width: 204px;
     font-weight: 900;
+    letter-spacing: 2px;
   }
   .footer__r {
     font-weight: 900;
   }
 }
-@media (max-width: 428px) {
+/* @media (max-width: 428px) {
   .footer__text {
     letter-spacing: 3px;
     width: 215px;
   }
-}
+} */

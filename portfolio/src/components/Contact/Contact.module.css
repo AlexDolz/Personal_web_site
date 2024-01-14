@@ -373,4 +373,8 @@
   .contact__button {
     width: 34px;
   }
+  .contact__img__wrapper {
+    width: 100px;
+    height: 175px;
+  }
 }
