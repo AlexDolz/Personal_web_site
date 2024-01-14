@@ -455,6 +455,11 @@
     font-size: 15.6px;
   }
 }
+@media (max-width: 1052px) {
+  .about__text__highlight::after {
+    left: 7px;
+  }
+}
 @media (max-width: 980px) {
   .about__text__wrapper {
     max-width: 550px;
@@ -521,6 +526,9 @@
   }
   .about__btn {
     font-size: 11.5px;
+  }
+  .about__text__highlight::after {
+    left: 6px;
   }
 }
 @media (max-width: 736px) {
@@ -593,6 +601,9 @@
   }
   .about__btn {
     font-size: 10px;
+  }
+  .about__text__highlight::after {
+    left: 5.5px;
   }
 }
 @media (max-width: 539px) {
