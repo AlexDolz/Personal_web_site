@@ -123,6 +123,10 @@
 @media (max-width: 454px) {
   .footer__text {
     width: 235px;
+    font-weight: 900;
+  }
+  .footer__r {
+    font-weight: 900;
   }
 }
 @media (max-width: 428px) {
