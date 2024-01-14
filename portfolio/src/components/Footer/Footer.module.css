@@ -106,7 +106,8 @@
 }
 @media (max-width: 616px) {
   .footer__text {
-    font-size: 6px;
+    font-size: 7px;
+    letter-spacing: 3px;
   }
   .footer__r {
     font-size: 10px;
