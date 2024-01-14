@@ -72,6 +72,7 @@
 @media (max-width: 616px) {
   .text__wrapper {
     height: 75px;
+    margin-left: 24px;
   }
 }
 @media (max-width: 560px) {
@@ -81,17 +82,23 @@
 }
 @media (max-width: 550px) {
   .text__wrapper {
-    margin-left: 20px;
+    margin-left: 18px;
   }
 }
 @media (max-width: 510px) {
   .text__wrapper {
     height: 65px;
+    margin-left: 16px;
   }
 }
 @media (max-width: 476px) {
   .text__wrapper {
     margin-left: 12px;
+  }
+}
+@media (max-width: 460px) {
+  .text__wrapper {
+    margin-left: 10px;
   }
 }
 @media (max-width: 380px) {

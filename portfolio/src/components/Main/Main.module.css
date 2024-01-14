@@ -241,7 +241,7 @@
 
 @media (max-width: 546px) {
   .about__text {
-    font-size: 10.6px;
+    font-size: 10.4px;
   }
   .projects__icon,
   .about__me__icon {
@@ -258,16 +258,9 @@
   }
 }
 @media (max-width: 510px) {
-  .about__text {
-    font-size: 9.6px;
-  }
   .projects__icon,
   .about__me__icon {
     font-size: 17px;
-  }
-  .projects__text,
-  .about__me__text {
-    font-size: 9.6px;
   }
   .projects__wrapper,
   .about__me__wrapper {
@@ -280,22 +273,19 @@
   }
 }
 @media (max-width: 455px) {
-  .about__text {
-    font-size: 9px;
-  }
   .projects__icon,
   .about__me__icon {
     font-size: 16px;
   }
   .projects__text,
   .about__me__text {
-    font-size: 9px;
+    font-size: 9.6px;
   }
 }
 
 @media (max-width: 410px) {
   .about__text {
-    font-size: 8.5px;
+    font-size: 9.1px;
   }
   .projects__icon,
   .about__me__icon {
@@ -303,23 +293,20 @@
   }
   .projects__text,
   .about__me__text {
-    font-size: 8.5px;
+    font-size: 8px;
   }
   .projects__wrapper,
   .about__me__wrapper {
-    gap: 4px;
+    gap: 3px;
   }
 }
-@media (max-width: 360px) {
-  .projects__wrapper,
-  .about__me__wrapper {
-    gap: 2px;
-  }
-}
-@media (max-width: 350px) {
+@media (max-width: 359px) {
   .about__text {
-    font-size: 7.5px;
+    font-size: 8.6px;
   }
+}
+
+@media (max-width: 350px) {
   .projects__icon,
   .about__me__icon {
     font-size: 13px;
@@ -331,8 +318,5 @@
   .projects__wrapper,
   .about__me__wrapper {
     gap: 3px;
-  }
-  .about__wrapper {
-    top: 50%;
   }
 }
