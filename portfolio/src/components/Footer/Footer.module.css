@@ -123,8 +123,7 @@
 }
 @media (max-width: 454px) {
   .footer__text {
-    /* width: 235px; */
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: 2px;
     width: 184px;
     font-size: 7px;

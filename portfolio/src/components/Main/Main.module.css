@@ -287,9 +287,11 @@
   .about__text {
     font-size: 9.1px;
   }
-  .projects__icon,
-  .about__me__icon {
+  .projects__icon {
     font-size: 15px;
+  }
+  .about__me__icon {
+    font-size: 14px;
   }
   .projects__text,
   .about__me__text {
