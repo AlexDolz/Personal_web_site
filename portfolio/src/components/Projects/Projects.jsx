@@ -60,8 +60,14 @@ const projectsData = [
 const Projects = ({ isDarkMode }) => {
   const [hoveredProjectIndex, setHoveredProjectIndex] = useState(null);
 
+  const [isOverlayVisible, setOverlayVisible] = useState(false);
+
   const handleProjectHover = (index, isEntering) => {
     setHoveredProjectIndex(isEntering ? index : null);
+    const isMobile = window.matchMedia(
+      '(max-width: 908px) and (pointer: coarse)'
+    ).matches;
+    setOverlayVisible(isEntering && isMobile);
   };
 
   return (
@@ -145,59 +151,67 @@ const Projects = ({ isDarkMode }) => {
         </div>
       </AnimatePresence>
       {hoveredProjectIndex !== null && (
-        <motion.div
-          key={`magnifier-${hoveredProjectIndex}`}
-          className={s.projects__magnifier__wrapper}
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0 }}
-          transition={{ duration: 0.7 }}
-        >
-          <div className={s.img__magnifier__wrapper}>
-            <img
-              src={projectsData[hoveredProjectIndex].imgSrc}
-              alt='magnified'
-              className={s.magnified__img}
+        <div className={s.projects__magnifier__container}>
+          {isOverlayVisible && (
+            <div
+              className={s.overlay}
+              onClick={() => setOverlayVisible(false)}
             />
-          </div>
-          <div className={s.projects__technologies__libraries}>
-            <div className={s.projects__technologies__wrapper}>
-              {projectsData[hoveredProjectIndex].technologies.map(
-                (tech, index) => (
-                  <div className={s.projects__technology} key={index}>
-                    {tech === 'HTML' && (
-                      <p className={s.technology__text}>{tech}</p>
-                    )}
-                    {tech === 'CSS' && (
-                      <p className={s.technology__text}>{tech}</p>
-                    )}
-                    {tech === 'JavaScript' && (
-                      <p className={s.technology__text}>{tech}</p>
-                    )}
-                  </div>
-                )
-              )}
+          )}
+          <motion.div
+            key={`magnifier-${hoveredProjectIndex}`}
+            className={s.projects__magnifier__wrapper}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0 }}
+            transition={{ duration: 0.7 }}
+          >
+            <div className={s.img__magnifier__wrapper}>
+              <img
+                src={projectsData[hoveredProjectIndex].imgSrc}
+                alt='magnified'
+                className={s.magnified__img}
+              />
             </div>
-            <div className={s.proejcts__libraries__wrapper}>
-              {projectsData[hoveredProjectIndex].libraries &&
-                projectsData[hoveredProjectIndex].libraries.map(
-                  (libr, index) => (
-                    <div className={s.projects__library} key={index}>
-                      {libr === 'React' && (
-                        <p className={s.library__text}>{libr}</p>
+            <div className={s.projects__technologies__libraries}>
+              <div className={s.projects__technologies__wrapper}>
+                {projectsData[hoveredProjectIndex].technologies.map(
+                  (tech, index) => (
+                    <div className={s.projects__technology} key={index}>
+                      {tech === 'HTML' && (
+                        <p className={s.technology__text}>{tech}</p>
                       )}
-                      {libr === 'React-dom' && (
-                        <p className={s.library__text}>{libr}</p>
+                      {tech === 'CSS' && (
+                        <p className={s.technology__text}>{tech}</p>
                       )}
-                      {libr === 'React-router-dom' && (
-                        <p className={s.library__text}>{libr}</p>
+                      {tech === 'JavaScript' && (
+                        <p className={s.technology__text}>{tech}</p>
                       )}
                     </div>
                   )
                 )}
+              </div>
+              <div className={s.projects__libraries__wrapper}>
+                {projectsData[hoveredProjectIndex].libraries &&
+                  projectsData[hoveredProjectIndex].libraries.map(
+                    (libr, index) => (
+                      <div className={s.projects__library} key={index}>
+                        {libr === 'React' && (
+                          <p className={s.library__text}>{libr}</p>
+                        )}
+                        {libr === 'React-dom' && (
+                          <p className={s.library__text}>{libr}</p>
+                        )}
+                        {libr === 'React-router-dom' && (
+                          <p className={s.library__text}>{libr}</p>
+                        )}
+                      </div>
+                    )
+                  )}
+              </div>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       )}
     </div>
   );
