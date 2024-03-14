@@ -243,9 +243,6 @@
 }
 
 @media (max-width: 980px) {
-  .contact__img2__wrapper {
-    height: 15%;
-  }
   .contact__wrapper {
     padding: 15px 35px;
   }
@@ -265,7 +262,10 @@
 @media (any-pointer: coarse) and (orientation: landscape) {
   .contact__img__wrapper {
     width: 145px;
-    height: 200px;
+    height: 192px;
+  }
+  .contact__img2__wrapper {
+    height: 25%;
   }
 }
 @media (max-width: 790px) {
