@@ -262,6 +262,12 @@
     height: 230px;
   }
 }
+@media (any-pointer: coarse) and (orientation: landscape) {
+  .contact__img__wrapper {
+    width: 145px;
+    height: 200px;
+  }
+}
 @media (max-width: 790px) {
   .contact__img3__wrapper {
     width: 200px;

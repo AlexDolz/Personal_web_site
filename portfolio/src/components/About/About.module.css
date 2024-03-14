@@ -518,8 +518,8 @@
 }
 @media (any-pointer: coarse) and (orientation: landscape) {
   .about__img__wrapper2 {
-    width: 150px;
-    height: 65px;
+    width: 145px;
+    height: 53px;
   }
 }
 @media (max-width: 769px) {
