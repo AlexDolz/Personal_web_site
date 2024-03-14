@@ -266,6 +266,7 @@
   }
   .contact__img2__wrapper {
     height: 25%;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 790px) {

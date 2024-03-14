@@ -134,11 +134,11 @@
   animation-delay: 1.2s;
 }
 
-@media (max-height: 542px) {
+/* @media (max-height: 542px) {
   .menu__img__wrapper {
     width: 51%;
   }
-}
+} */
 
 @media (min-width: 1074px) {
   .menu__wrapper {
@@ -266,7 +266,7 @@
   }
 }
 
-@media (max-height: 733px) {
+/* @media (max-height: 733px) {
   .menu__list {
     gap: 10px;
   }
@@ -299,4 +299,4 @@
   .menu__wrapper {
     height: 40vh;
   }
-}
+} */
