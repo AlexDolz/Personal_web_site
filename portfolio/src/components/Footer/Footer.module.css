@@ -1,7 +1,7 @@
 .footer__wrapper__homepage {
   width: 600px;
   position: absolute;
-  bottom: -9px;
+  bottom: -1%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
