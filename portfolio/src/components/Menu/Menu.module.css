@@ -300,3 +300,15 @@
     height: 40vh;
   }
 } */
+
+@media (any-pointer: coarse) and (orientation: landscape) {
+  .menu__img__wrapper {
+    width: 28%;
+  }
+  .box {
+    font-size: 26px;
+  }
+  .menu__list {
+    gap: 0;
+  }
+}
