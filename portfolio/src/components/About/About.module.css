@@ -516,6 +516,12 @@
     height: 71px;
   }
 }
+@media (any-pointer: coarse) and (orientation: landscape) {
+  .about__img__wrapper2 {
+    width: 150px;
+    height: 65px;
+  }
+}
 @media (max-width: 769px) {
   .about__text__wrapper {
     margin-left: 75px;
