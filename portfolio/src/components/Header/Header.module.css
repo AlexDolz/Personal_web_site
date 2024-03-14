@@ -280,7 +280,6 @@ h2 {
   }
   .header {
     flex-direction: column;
-    padding-bottom: 40px;
   }
   .menu__wrapper {
     margin-top: 8px;
