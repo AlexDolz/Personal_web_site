@@ -685,7 +685,7 @@
     left: 30%;
   }
   .overlay {
-    backdrop-filter: blur(12px);
+    filter: blur(12px);
   }
 }
 
@@ -1091,7 +1091,7 @@
 @media (any-pointer: coarse) and (orientation: landscape) {
   .projects__container {
     overflow: hidden;
-    max-height: 775px;
+    max-height: 782px;
   }
   .projects__wrapper {
     height: 802px;
