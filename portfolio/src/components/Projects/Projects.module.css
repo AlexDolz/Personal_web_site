@@ -1087,3 +1087,13 @@
     left: 3.5%;
   }
 }
+
+@media (any-pointer: coarse) and (orientation: landscape) {
+  .projects__container {
+    overflow: hidden;
+    max-height: 775px;
+  }
+  .projects__wrapper {
+    height: 795px;
+  }
+}
