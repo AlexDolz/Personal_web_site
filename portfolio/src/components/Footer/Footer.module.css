@@ -29,7 +29,7 @@
 
 @media (max-height: 684px) {
   .footer__wrapper {
-    padding-top: 20px;
+    padding-top: 80px;
   }
   .footer__wrapper__homepage {
     display: flex;

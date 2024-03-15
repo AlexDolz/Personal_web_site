@@ -14,6 +14,7 @@ const App = () => {
 
   const location = useLocation();
   const isHomepage = location.pathname === '/';
+  const isContactPage = location.pathname === '/contact';
 
   useEffect(() => {
     const rootStyles = getComputedStyle(document.documentElement);
@@ -57,7 +58,11 @@ const App = () => {
   return (
     <div className='main__container'>
       <div className='container'>
-        <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+        <Header
+          isDarkMode={isDarkMode}
+          toggleDarkMode={toggleDarkMode}
+          isContactPage={isContactPage}
+        />
       </div>
       <main>
         <Routes>

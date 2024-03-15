@@ -12,7 +12,7 @@ import { FaGithubAlt } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { HiSun } from 'react-icons/hi';
 
-const Header = ({ isDarkMode, toggleDarkMode }) => {
+const Header = ({ isDarkMode, toggleDarkMode, isContactPage }) => {
   const [isCross, setIsCross] = useState(false);
   const location = useLocation();
 
@@ -39,8 +39,14 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
   const linkedInLink =
     'https://www.linkedin.com/in/aleksej-dolznikov-58a300276';
 
+  console.log(isContactPage);
+
   return (
-    <header className={`${s.header} ${isDarkMode ? s.darkMode : ''}`}>
+    <header
+      className={`${s.header} ${isDarkMode ? s.darkMode : ''} ${
+        isContactPage ? s.header__contactPage : s.header
+      }`}
+    >
       <div className={s.logo__wrapper}>
         <NavLink to={'/'}>
           <div className={s.personal__img__wrapper}>

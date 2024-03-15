@@ -525,3 +525,9 @@ h2 {
     font-size: 19px;
   }
 }
+
+@media (any-pointer: coarse) and (orientation: landscape) {
+  .header__contactPage {
+    padding-bottom: 45px;
+  }
+}
