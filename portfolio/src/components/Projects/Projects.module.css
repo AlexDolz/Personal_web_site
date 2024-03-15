@@ -673,13 +673,6 @@
     left: 30%;
   }
 }
-/* @media (any-pointer: coarse) and (orientation: landscape) {
-  .projects__magnifier__wrapper {
-    position: fixed;
-    top: 13%;
-    left: 31%;
-  }
-} */
 
 @media (max-width: 856px) {
   .project__item__title {
@@ -961,7 +954,7 @@
   }
   .img__magnifier__wrapper {
     width: 340px;
-    height: 215px;
+    height: 185px;
   }
 }
 @media (max-width: 435px) {
@@ -999,7 +992,6 @@
   }
   .img__magnifier__wrapper {
     width: 315px;
-    height: 212px;
   }
 }
 @media (max-width: 391px) {
