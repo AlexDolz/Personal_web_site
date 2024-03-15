@@ -58,6 +58,14 @@ const projectsData = [
 ];
 
 const Projects = ({ isDarkMode }) => {
+  const overlayStyle = {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100vw',
+    height: '100vh',
+    background: isDarkMode ? 'var(--dark-theme)' : 'var(--light-theme)',
+  };
   const [hoveredProjectIndex, setHoveredProjectIndex] = useState(null);
 
   const [isOverlayVisible, setOverlayVisible] = useState(false);
@@ -65,7 +73,7 @@ const Projects = ({ isDarkMode }) => {
   const handleProjectHover = (index, isEntering) => {
     setHoveredProjectIndex(isEntering ? index : null);
     const isMobile = window.matchMedia(
-      '(max-width: 908px) and (pointer: coarse)'
+      '(max-width: 908px) and (any-pointer: coarse)'
     ).matches;
     setOverlayVisible(isEntering && isMobile);
   };
@@ -154,7 +162,7 @@ const Projects = ({ isDarkMode }) => {
         <div className={s.projects__magnifier__container}>
           {isOverlayVisible && (
             <div
-              className={s.overlay}
+              style={overlayStyle}
               onClick={() => setOverlayVisible(false)}
             />
           )}

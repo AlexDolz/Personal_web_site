@@ -230,14 +230,6 @@
   font-family: 'Rajdhani', sans-serif;
 }
 
-@media (orientation: landscape) and (any-pointer: coarse) {
-  .projects__magnifier__wrapper {
-    position: fixed;
-    top: 13%;
-    left: 31%;
-  }
-}
-
 @media (min-height: 752px) {
   .projects__container {
     max-height: 435px;
@@ -249,11 +241,11 @@
     max-height: 500px;
   }
 }
-@media (min-width: 908px) and (orientation: portrait) {
+/* @media (min-width: 908px) and (orientation: portrait) {
   .overlay {
     backdrop-filter: blur(0px);
   }
-}
+} */
 @media (min-width: 1600px) {
   .projects__container {
     min-height: 500px;
@@ -677,16 +669,20 @@
     font-size: 25px;
   }
 }
-@media (max-width: 908px) and (any-pointer: coarse) and (orientation: portrait) or (orientation: landscape) {
+@media (any-pointer: coarse) and (orientation: portrait) {
   .projects__magnifier__wrapper {
     display: flex;
     position: fixed;
     top: 37%;
     left: 30%;
   }
-  /* .overlay {
-    filter: blur(12px);
-  } */
+}
+@media (any-pointer: coarse) and (orientation: landscape) {
+  .projects__magnifier__wrapper {
+    position: fixed;
+    top: 13%;
+    left: 31%;
+  }
 }
 
 @media (max-width: 856px) {
