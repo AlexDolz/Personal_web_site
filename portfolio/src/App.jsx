@@ -82,7 +82,7 @@ const App = () => {
           />
         </Routes>
       </main>
-      <Footer isHomepage={isHomepage} />
+      <Footer isHomepage={isHomepage} isContactPage={isContactPage} />
     </div>
   );
 };

@@ -129,3 +129,9 @@
     font-weight: 900;
   }
 }
+
+@media (any-pointer: coarse) and (orientation: landscape) {
+  .footer__wrapper__contactPage {
+    padding-top: 120px;
+  }
+}
