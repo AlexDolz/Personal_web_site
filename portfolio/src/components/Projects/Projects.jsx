@@ -72,9 +72,7 @@ const Projects = ({ isDarkMode }) => {
 
   const handleProjectHover = (index, isEntering) => {
     setHoveredProjectIndex(isEntering ? index : null);
-    const isMobile = window.matchMedia(
-      '(max-width: 908px) and (any-pointer: coarse)'
-    ).matches;
+    const isMobile = window.matchMedia('(any-pointer: coarse)').matches;
     setOverlayVisible(isEntering && isMobile);
   };
 
