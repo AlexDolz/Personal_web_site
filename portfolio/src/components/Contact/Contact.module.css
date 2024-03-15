@@ -269,6 +269,7 @@
     margin-bottom: 5px;
   }
 }
+
 @media (max-width: 790px) {
   .contact__img3__wrapper {
     width: 200px;
@@ -306,7 +307,7 @@
   }
   .contact__img__wrapper {
     width: 120px;
-    height: 195px;
+    height: 182px;
   }
 }
 @media (max-width: 652px) {
