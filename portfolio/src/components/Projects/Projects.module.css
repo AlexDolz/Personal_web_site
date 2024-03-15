@@ -230,7 +230,7 @@
   font-family: 'Rajdhani', sans-serif;
 }
 
-@media (orientation: landscape) and (any-pointer: coarse) {
+@media (orientation: landscape) and (pointer: coarse) {
   .projects__magnifier__wrapper {
     position: fixed;
     top: 13%;

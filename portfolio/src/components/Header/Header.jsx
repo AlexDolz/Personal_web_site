@@ -39,8 +39,6 @@ const Header = ({ isDarkMode, toggleDarkMode, isContactPage }) => {
   const linkedInLink =
     'https://www.linkedin.com/in/aleksej-dolznikov-58a300276';
 
-  console.log(isContactPage);
-
   return (
     <header
       className={`${s.header} ${isDarkMode ? s.darkMode : ''} ${
