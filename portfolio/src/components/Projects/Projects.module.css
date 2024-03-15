@@ -669,7 +669,7 @@
     font-size: 25px;
   }
 }
-@media (any-pointer: coarse) and (orientation: portrait) {
+@media (any-pointer: coarse) {
   .projects__magnifier__wrapper {
     display: flex;
     position: fixed;
@@ -677,14 +677,13 @@
     left: 30%;
   }
 }
-@media (any-pointer: coarse) and (orientation: landscape) {
+/* @media (any-pointer: coarse) and (orientation: landscape) {
   .projects__magnifier__wrapper {
     position: fixed;
     top: 13%;
     left: 31%;
-    z-index: 999;
   }
-}
+} */
 
 @media (max-width: 856px) {
   .project__item__title {

@@ -482,7 +482,7 @@ h2 {
 }
 @media (max-width: 455px) {
   .header {
-    padding-bottom: 0px;
+    padding-bottom: 25px;
   }
 }
 @media (max-width: 352px) {
