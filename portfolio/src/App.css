@@ -73,9 +73,9 @@ a:active {
   min-height: 100vh;
 }
 
-main {
+/* main {
   flex-grow: 1;
-}
+} */
 
 body {
   height: 100%;
