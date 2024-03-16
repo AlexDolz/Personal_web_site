@@ -312,7 +312,7 @@
 }
 @media (max-width: 652px) {
   .contact__main__wrapper {
-    padding-top: 40px;
+    padding-top: 30px;
     gap: 20px;
   }
 }
@@ -362,11 +362,11 @@
     height: 58px;
   }
 }
-@media (max-width: 407px) {
+/* @media (max-width: 407px) {
   .contact__main__wrapper {
     padding-top: 65px;
   }
-}
+} */
 @media (max-width: 354px) {
   .contact__main__wrapper {
     padding-top: 70px;
