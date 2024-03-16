@@ -669,7 +669,7 @@
   .projects__magnifier__wrapper {
     display: flex;
     position: fixed;
-    top: 20%;
+    top: 12%;
     left: 30%;
   }
 }
