@@ -213,6 +213,7 @@
 @media (max-width: 819px) {
   .menu__img__wrapper {
     width: 65%;
+    height: 60vh;
   }
 }
 @media (max-width: 784px) {
