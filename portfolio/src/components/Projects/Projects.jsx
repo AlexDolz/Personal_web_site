@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import s from './Projects.module.css';
 import omnifood from './media/omnifood.png';
+import forkify from './media/forkify_recipe_app.png';
 import online_shop from './media/online_shop.png';
 import arcade_game from './media/arcade_game.png';
 import portfolio_example from './media/portfolio_example.png';
@@ -17,6 +18,15 @@ const projectsData = [
     githubLink: 'https://github.com/AlexDolz/Omnifood-project',
     imgSrc: omnifood,
     technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    title: 'Forkify recipe app',
+    description:
+      'Forkify - search over 1,000,000 recipes! Discover a world of culinary delights, add your own, and share culinary creations with ease!',
+    link: 'https://main--forkify-app-alex.netlify.app/',
+    githubLink: 'https://github.com/AlexDolz/Forkify_app-JS',
+    imgSrc: forkify,
+    technologies: ['HTML', 'SCSS', 'JavaScript'],
   },
   {
     title: 'Portfolio sample',
