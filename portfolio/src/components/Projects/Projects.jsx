@@ -200,6 +200,9 @@ const Projects = ({ isDarkMode }) => {
                       {tech === 'CSS' && (
                         <p className={s.technology__text}>{tech}</p>
                       )}
+                      {tech === 'SCSS' && (
+                        <p className={s.technology__text}>{tech}</p>
+                      )}
                       {tech === 'JavaScript' && (
                         <p className={s.technology__text}>{tech}</p>
                       )}
