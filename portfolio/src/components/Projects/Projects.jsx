@@ -6,6 +6,8 @@ import online_shop from './media/online_shop.png';
 import arcade_game from './media/arcade_game.png';
 import portfolio_example from './media/portfolio_example.png';
 import bankist_website from './media/bankist_website.png';
+import usePopcorn from './media/usePopcorn.png';
+import travel_list from './media/travel-list.png';
 import { GiBottomRight3DArrow } from 'react-icons/gi';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -29,15 +31,16 @@ const projectsData = [
     technologies: ['HTML', 'SCSS', 'JavaScript'],
   },
   {
-    title: 'Portfolio sample',
+    title: 'UsePopcorn',
     description:
-      "The portfolio design incorporates a clean and modern layout, making it easy for visitors to navigate and explore John's accomplishments.",
-    link: 'https://alexdolz.github.io/Portfolio_ex_REACT/',
-    githubLink: 'https://github.com/AlexDolz/Portfolio_ex_REACT',
-    imgSrc: portfolio_example,
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    libraries: ['React', 'React-dom', 'React-router-dom'],
+      'Movies database website providing detailed information about movies. Explore titles, genres, casts, and more with ease.',
+    link: 'https://alexdolz.github.io/usePopcorn/',
+    githubLink: 'https://github.com/AlexDolz/usePopcorn',
+    imgSrc: usePopcorn,
+    technologies: ['HTML', 'CSS', 'JavaScript', 'API'],
+    libraries: ['React', 'React-hooks'],
   },
+
   {
     title: 'Bankist website sample',
     description:
@@ -57,6 +60,16 @@ const projectsData = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
   },
   {
+    title: 'Travel list',
+    description:
+      "A simple website to create and check off packing lists, ensuring you don't forget anything for your trip.",
+    link: 'https://alexdolz.github.io/Travel_list/',
+    githubLink: 'https://github.com/AlexDolz/Travel_list',
+    imgSrc: travel_list,
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Local-storage'],
+    libraries: ['React', 'React-hooks'],
+  },
+  {
     title: 'Online-shop sample',
     description:
       'Online store - Food online. Imitation of an online store. Website helping people buy food without leaving their homes.',
@@ -64,6 +77,17 @@ const projectsData = [
     githubLink: 'https://github.com/AlexDolz/Online_store-JS',
     imgSrc: online_shop,
     technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+
+  {
+    title: 'Portfolio sample',
+    description:
+      "The portfolio design incorporates a clean and modern layout, making it easy for visitors to navigate and explore John's accomplishments.",
+    link: 'https://alexdolz.github.io/Portfolio_ex_REACT/',
+    githubLink: 'https://github.com/AlexDolz/Portfolio_ex_REACT',
+    imgSrc: portfolio_example,
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    libraries: ['React', 'React-dom', 'React-router-dom'],
   },
 ];
 
@@ -206,6 +230,12 @@ const Projects = ({ isDarkMode }) => {
                       {tech === 'JavaScript' && (
                         <p className={s.technology__text}>{tech}</p>
                       )}
+                      {tech === 'API' && (
+                        <p className={s.technology__text}>{tech}</p>
+                      )}
+                      {tech === 'Local-storage' && (
+                        <p className={s.technology__text}>{tech}</p>
+                      )}
                     </div>
                   )
                 )}
@@ -222,6 +252,9 @@ const Projects = ({ isDarkMode }) => {
                           <p className={s.library__text}>{libr}</p>
                         )}
                         {libr === 'React-router-dom' && (
+                          <p className={s.library__text}>{libr}</p>
+                        )}
+                        {libr === 'React-hooks' && (
                           <p className={s.library__text}>{libr}</p>
                         )}
                       </div>
