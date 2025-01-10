@@ -81,7 +81,7 @@ const WelcomeText = ({ isDarkMode }) => {
           : '-5px 0px 4px var(--light-theme-shadows)',
       }}
     >
-      <AnimatedH1>{isVisible && 'Welcome.'}</AnimatedH1>
+      <AnimatedH1>{isVisible && 'Welcome'}</AnimatedH1>
     </div>
   );
 };
