@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Personal_web_site/static/css/main.74e5e457.css",
-    "main.js": "/Personal_web_site/static/js/main.7f223c7c.js",
+    "main.js": "/Personal_web_site/static/js/main.ba1adaeb.js",
     "static/media/online_shop.png": "/Personal_web_site/static/media/online_shop.d269425203270886600b.png",
     "static/media/forkify_recipe_app.png": "/Personal_web_site/static/media/forkify_recipe_app.a140934b2b0d30569cc4.png",
     "static/media/about_img.png": "/Personal_web_site/static/media/about_img.eb82830170015504d356.png",
     "static/media/omnifood.png": "/Personal_web_site/static/media/omnifood.b2e6e4269f7b7b907a6d.png",
-    "static/media/Resume eng.pdf": "/Personal_web_site/static/media/Resume eng.e683f73c193656af89bf.pdf",
     "static/media/Resume de.pdf": "/Personal_web_site/static/media/Resume de.7bc43b9a97a215e36467.pdf",
+    "static/media/Resume eng.pdf": "/Personal_web_site/static/media/Resume eng.de08b0b6a54de0c052f4.pdf",
     "static/media/usePopcorn.png": "/Personal_web_site/static/media/usePopcorn.76927ffea2934d9a6e8e.png",
     "static/media/main_img6.png": "/Personal_web_site/static/media/main_img6.11d14871946e646e0a92.png",
     "static/media/portfolio_example.png": "/Personal_web_site/static/media/portfolio_example.40cbe568f94248f93ee6.png",
@@ -23,10 +23,10 @@
     "static/media/call_me.png": "/Personal_web_site/static/media/call_me.d95599473352759a6156.png",
     "index.html": "/Personal_web_site/index.html",
     "main.74e5e457.css.map": "/Personal_web_site/static/css/main.74e5e457.css.map",
-    "main.7f223c7c.js.map": "/Personal_web_site/static/js/main.7f223c7c.js.map"
+    "main.ba1adaeb.js.map": "/Personal_web_site/static/js/main.ba1adaeb.js.map"
   },
   "entrypoints": [
     "static/css/main.74e5e457.css",
-    "static/js/main.7f223c7c.js"
+    "static/js/main.ba1adaeb.js"
   ]
 }
