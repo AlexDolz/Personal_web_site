@@ -517,7 +517,7 @@
 @media (max-width: 1502px) {
   .img__magnifier__wrapper {
     width: 600px;
-    height: 300px;
+    height: 100%;
   }
 
   .projects__technologies__wrapper {
@@ -536,7 +536,6 @@
 @media (max-width: 1400px) {
   .img__magnifier__wrapper {
     width: 550px;
-    height: 280px;
   }
   .projects__technologies__libraries {
     flex-direction: column;
@@ -556,7 +555,6 @@
   }
   .img__magnifier__wrapper {
     width: 500px;
-    height: 280px;
   }
 }
 @media (max-width: 1193px) {
@@ -568,7 +566,6 @@
 @media (max-width: 1157px) {
   .img__magnifier__wrapper {
     width: 425px;
-    height: 255px;
   }
 
   .projects__technologies__libraries {
@@ -592,7 +589,6 @@
   }
   .img__magnifier__wrapper {
     width: 380px;
-    height: 200px;
   }
 }
 
@@ -954,7 +950,6 @@
   }
   .img__magnifier__wrapper {
     width: 340px;
-    height: 185px;
   }
 }
 @media (max-width: 435px) {
@@ -1050,7 +1045,6 @@
   }
   .img__magnifier__wrapper {
     width: 300px;
-    height: 200px;
   }
   .projects__libraries__wrapper {
     gap: 22px;

@@ -66,7 +66,7 @@ const projectsData = [
     link: 'https://alexdolz.github.io/Travel_list/',
     githubLink: 'https://github.com/AlexDolz/Travel_list',
     imgSrc: travel_list,
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Local-storage'],
+    technologies: ['HTML', 'CSS', 'JavaScript'],
     libraries: ['React', 'React-hooks'],
   },
   {
@@ -231,9 +231,6 @@ const Projects = ({ isDarkMode }) => {
                         <p className={s.technology__text}>{tech}</p>
                       )}
                       {tech === 'API' && (
-                        <p className={s.technology__text}>{tech}</p>
-                      )}
-                      {tech === 'Local-storage' && (
                         <p className={s.technology__text}>{tech}</p>
                       )}
                     </div>
