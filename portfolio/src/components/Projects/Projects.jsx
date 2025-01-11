@@ -7,6 +7,7 @@ import arcade_game from './media/arcade_game.png';
 import portfolio_example from './media/portfolio_example.png';
 import bankist_website from './media/bankist_website.png';
 import usePopcorn from './media/usePopcorn.png';
+import eat_n_split from './media/eat-n-split.png';
 import travel_list from './media/travel-list.png';
 import { GiBottomRight3DArrow } from 'react-icons/gi';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -79,6 +80,16 @@ const projectsData = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
   },
 
+  {
+    title: 'Eat-n-Split',
+    description:
+      'This app is designed to help users keep track of financial transactions with friends. It provides a simple way to track who owes whom.',
+    link: 'https://alexdolz.github.io/Eat-n-split/',
+    githubLink: 'https://github.com/AlexDolz/Eat-n-split',
+    imgSrc: eat_n_split,
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    libraries: ['React', 'React-hooks'],
+  },
   {
     title: 'Portfolio sample',
     description:
