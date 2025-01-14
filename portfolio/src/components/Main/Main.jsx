@@ -1,7 +1,8 @@
 import React from 'react';
 import s from './Main.module.css';
 import WelcomeText from '../WelcomeText/WelcomeText';
-import main_img from './media/main_img6.png';
+import main_img_right from './media/main_img6 right.png';
+import main_img_left from './media/main_img6 left.png';
 import { FcVideoProjector } from 'react-icons/fc';
 import { FcAbout } from 'react-icons/fc';
 import { NavLink } from 'react-router-dom';
@@ -11,9 +12,19 @@ const Main = ({ isDarkMode }) => {
     <main className={s.main}>
       <div className={s.main__img__wrapper}>
         <img
-          src={main_img}
+          src={main_img_right}
           alt='abstraction'
           className={s.main__img}
+          style={{
+            filter: isDarkMode
+              ? 'invert(53%) sepia(10%) saturate(335%) hue-rotate(48deg) brightness(140%) contrast(63%)'
+              : '',
+          }}
+        />
+        <img
+          src={main_img_left}
+          alt='abstraction'
+          className={s.main__img__left}
           style={{
             filter: isDarkMode
               ? 'invert(53%) sepia(10%) saturate(335%) hue-rotate(48deg) brightness(140%) contrast(63%)'
