@@ -1068,9 +1068,10 @@
 
 @media (any-pointer: coarse) and (orientation: landscape) {
   .projects__container {
-    max-height: 782px;
+    min-height: 100%;
+    overflow: hidden;
   }
   .projects__wrapper {
-    height: 802px;
+    height: 400vh;
   }
 }
