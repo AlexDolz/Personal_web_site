@@ -1068,7 +1068,6 @@
 
 @media (any-pointer: coarse) and (orientation: landscape) {
   .projects__container {
-    overflow: hidden;
     max-height: 782px;
   }
   .projects__wrapper {
