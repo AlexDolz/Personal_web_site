@@ -77,8 +77,8 @@ const WelcomeText = ({ isDarkMode }) => {
       className={s.text__wrapper}
       style={{
         textShadow: isDarkMode
-          ? '-5px 0px 4px var(--dark-theme-shadows)'
-          : '-5px 0px 4px var(--light-theme-shadows)',
+          ? '-2.5px 0px 3px var(--dark-theme-shadows)'
+          : '-2.5px 0px 3px var(--light-theme-shadows)',
       }}
     >
       <AnimatedH1>{isVisible && 'Welcome'}</AnimatedH1>
