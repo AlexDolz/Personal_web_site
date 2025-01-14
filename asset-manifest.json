@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal_web_site/static/css/main.74e5e457.css",
-    "main.js": "/Personal_web_site/static/js/main.144550bf.js",
+    "main.css": "/Personal_web_site/static/css/main.b3285ebc.css",
+    "main.js": "/Personal_web_site/static/js/main.6b695a5e.js",
     "static/media/online_shop.png": "/Personal_web_site/static/media/online_shop.d269425203270886600b.png",
     "static/media/forkify_recipe_app.png": "/Personal_web_site/static/media/forkify_recipe_app.a140934b2b0d30569cc4.png",
     "static/media/about_img.png": "/Personal_web_site/static/media/about_img.eb82830170015504d356.png",
@@ -9,8 +9,9 @@
     "static/media/Resume de.pdf": "/Personal_web_site/static/media/Resume de.7bc43b9a97a215e36467.pdf",
     "static/media/Resume eng.pdf": "/Personal_web_site/static/media/Resume eng.de08b0b6a54de0c052f4.pdf",
     "static/media/usePopcorn.png": "/Personal_web_site/static/media/usePopcorn.76927ffea2934d9a6e8e.png",
-    "static/media/main_img6.png": "/Personal_web_site/static/media/main_img6.11d14871946e646e0a92.png",
+    "static/media/main_img6 right.png": "/Personal_web_site/static/media/main_img6 right.8506c90fb24b276dab7c.png",
     "static/media/portfolio_example.png": "/Personal_web_site/static/media/portfolio_example.40cbe568f94248f93ee6.png",
+    "static/media/main_img6 left.png": "/Personal_web_site/static/media/main_img6 left.d1eea1337df4698d723d.png",
     "static/media/bankist_website.png": "/Personal_web_site/static/media/bankist_website.618756f1ededcf965dc4.png",
     "static/media/travel-list.png": "/Personal_web_site/static/media/travel-list.ca35177041b7326773be.png",
     "static/media/eat-n-split.png": "/Personal_web_site/static/media/eat-n-split.cf00748d4c6d71692e02.png",
@@ -23,11 +24,11 @@
     "static/media/menu_img.png": "/Personal_web_site/static/media/menu_img.05c666a9172bd8cc6050.png",
     "static/media/call_me.png": "/Personal_web_site/static/media/call_me.d95599473352759a6156.png",
     "index.html": "/Personal_web_site/index.html",
-    "main.74e5e457.css.map": "/Personal_web_site/static/css/main.74e5e457.css.map",
-    "main.144550bf.js.map": "/Personal_web_site/static/js/main.144550bf.js.map"
+    "main.b3285ebc.css.map": "/Personal_web_site/static/css/main.b3285ebc.css.map",
+    "main.6b695a5e.js.map": "/Personal_web_site/static/js/main.6b695a5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.74e5e457.css",
-    "static/js/main.144550bf.js"
+    "static/css/main.b3285ebc.css",
+    "static/js/main.6b695a5e.js"
   ]
 }
