@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal_web_site/static/css/main.fb88264b.css",
-    "main.js": "/Personal_web_site/static/js/main.d90cd9b6.js",
+    "main.js": "/Personal_web_site/static/js/main.7b683b44.js",
     "static/media/online_shop.png": "/Personal_web_site/static/media/online_shop.d269425203270886600b.png",
     "static/media/forkify_recipe_app.png": "/Personal_web_site/static/media/forkify_recipe_app.a140934b2b0d30569cc4.png",
     "static/media/about_img.png": "/Personal_web_site/static/media/about_img.eb82830170015504d356.png",
@@ -15,8 +15,8 @@
     "static/media/eat-n-split.png": "/Personal_web_site/static/media/eat-n-split.cf00748d4c6d71692e02.png",
     "static/media/header_logo_D.png": "/Personal_web_site/static/media/header_logo_D.3ce636542e2383ded641.png",
     "static/media/arcade_game.png": "/Personal_web_site/static/media/arcade_game.d605f32d0ed207c04fcc.png",
-    "static/media/Resume de.pdf": "/Personal_web_site/static/media/Resume de.499610cc79da1b2e8926.pdf",
-    "static/media/Resume eng.pdf": "/Personal_web_site/static/media/Resume eng.4f3487ba100a941cec7a.pdf",
+    "static/media/Resume de.pdf": "/Personal_web_site/static/media/Resume de.3f9f98505591cf00986c.pdf",
+    "static/media/Resume eng.pdf": "/Personal_web_site/static/media/Resume eng.c38b2d90f5e4db3c7431.pdf",
     "static/media/about_img2.png": "/Personal_web_site/static/media/about_img2.e784fe7cf6821b5eea02.png",
     "static/media/contact2.png": "/Personal_web_site/static/media/contact2.d721a4d767aa4efd9128.png",
     "static/media/hd-face-cartoon.jpg": "/Personal_web_site/static/media/hd-face-cartoon.e778ccf62b6236b462b0.jpg",
@@ -25,10 +25,10 @@
     "static/media/call_me.png": "/Personal_web_site/static/media/call_me.d95599473352759a6156.png",
     "index.html": "/Personal_web_site/index.html",
     "main.fb88264b.css.map": "/Personal_web_site/static/css/main.fb88264b.css.map",
-    "main.d90cd9b6.js.map": "/Personal_web_site/static/js/main.d90cd9b6.js.map"
+    "main.7b683b44.js.map": "/Personal_web_site/static/js/main.7b683b44.js.map"
   },
   "entrypoints": [
     "static/css/main.fb88264b.css",
-    "static/js/main.d90cd9b6.js"
+    "static/js/main.7b683b44.js"
   ]
 }
